@@ -11,7 +11,7 @@ function AppNavbar() {
     
     return (
         <Navbar style={navbarStyle}  expand="lg" className="d-flex justify-content-around custom-navbar-height">
-            <Navbar.Brand href="#home" className="ms-3">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand href="#home" className="ms-5">React-Bootstrap</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className='d-flex justify-content-between'>
                 <Nav className="me-auto">
