@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -8,7 +9,10 @@
   font-family: 'Poppins';
 }
 
-/* App.css */
-.custom-navbar-height {
-  height: 80px; /* Example height */
+.border-none{
+border: 'none';
+}
+
+.img-width-40{
+  width: '40px';
 }
