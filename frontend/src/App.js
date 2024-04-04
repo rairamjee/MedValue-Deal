@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <AppNavbar/>
-      <Medicine/>
+      {/* <Medicine/> */}
     </div>
   );
 }
