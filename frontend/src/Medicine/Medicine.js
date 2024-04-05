@@ -49,9 +49,9 @@ function Medicine() {
                 </CardBody>
             </Card>
         </Container>
-        <Card style={{ border: 'none'}} className="Prescription-Details">
+        <Card style={{ border: 'none', flexBasis:'40%'}} className="Prescription-Details">
                 <CardTitle>Please add item(s) to proceed</CardTitle>
-                <Button style={{marginTop:'1rem' ,backgroundColor: '#008B8B'}}>View Cart {'>>'} </Button>
+                <Button style={{marginTop:'1rem' ,backgroundColor: '#008B8B' , width:'50%'}}>View Cart {'>>'} </Button>
                 <Card style={{ border: 'none', width: '22rem', boxShadow: '2px 2px 10px Grey' , marginTop:'3rem' }}>
                     <Card style={{ border: 'none', display: 'flex', flexDirection: 'row', margin: '0.5rem 0 0 1rem'  }}>
                         <CardImg src="https://res.cloudinary.com/hwfihgbjm/image/upload/v1619815694/production/fx4xpyy4bdvdzrhve8ss.png" style={{ width: "40px" ,height:'40px', marginRight: '1rem' }}></CardImg>
