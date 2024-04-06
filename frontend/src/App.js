@@ -1,6 +1,6 @@
 import './App.css';
-import AppNavbar from './Navbar/ResponsiveNavbar';
-import Medicine from './Medicine/Medicine';
+import AppNavbar from './Components/Navbar/ResponsiveNavbar';
+import Medicine from './Components/Medicine/Medicine';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
