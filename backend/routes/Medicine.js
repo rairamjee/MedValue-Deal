@@ -1,5 +1,5 @@
 const express = require('express');
-const {AllMedicine,Medicine_add} =require('../controllers/Medicine')
+const {AllMedicine,Medicine_add} = require('../controllers/Medicine')
 const router = express.Router();
 
 router.route('/all').get(AllMedicine)
